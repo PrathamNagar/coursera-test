@@ -1,3 +1,4 @@
+/*basic style*/
     * {
         box-sizing: border-box;
     }
@@ -89,13 +90,17 @@
     .row {
         width: 90%;
     }
-        @media (min-width: 992px) {
+
+    /*desktop version*/
+    @media (min-width: 992px) {
         .column-lg-4 {
             float: left;
             width: 33.33%;
         }
     }
-        @media (min-width: 768px) and (max-width: 991px) {
+
+    /*tablet version*/
+    @media (min-width: 768px) and (max-width: 991px) {
         .colmn-md-6 {
             float: left;
             width: 50%;
@@ -110,6 +115,8 @@
             margin-right: auto;
         }
     }
+
+    /*mobile version*/
     @media (max-width: 767px) {
         .colmn-sm-12 {
             float: left;
